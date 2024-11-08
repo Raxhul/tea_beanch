@@ -2,6 +2,11 @@ import { useState } from 'react'
 
 import Nav from './components/Nav'
 import Home from './components/Home'
+import Form from './components/Login/login';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+
+
 
 
 function App() {  
@@ -25,9 +30,13 @@ document.onkeydown = (e) => {
 
   return (
     <>
-      <Nav/>
-      <Home/>
-      
+     
+      <Routes>
+        <Route path='/' element={<Form/>} />
+       
+        <Route path='/home.' element={<Home/>} />
+      </Routes>
+     
     </>
   )
 }

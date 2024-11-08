@@ -2,13 +2,20 @@ import React, { useEffect } from 'react'
 import rs1 from '../assets/glass.webp'
 import rs2 from '../assets/newicebig.webp'
 import rs3 from '../assets/lemo.webp'
+import Nav from './Nav'
 
 const Home = () => {
 
   return (
  <>
-        <div className=" flex">
-           <div className="ml-[250px] mt-[50px]">
+ <div class="relative">
+ <div class="fixed top-0 left-0 right-0">
+ <Nav/>
+ </div>
+ </div>
+
+        <div className=" flex mt-[100px]">
+           <div className="ml-[250px] mt-[80px]">
             <img src={rs1}/>
            </div>
            <div className="flex ml-[100px]  mt-[-80]">
@@ -25,9 +32,20 @@ const Home = () => {
             <img src={rs1} className='border-2  rounded border-solid hover:cursor-pointer    ' />
             <img src={rs2}  className=' transition duration-0 hover:duration-150 border-2 rounded border-solid hover:cursor-pointer ml-3' />
             <img src={rs3} className='border-2 rounded border-solid hover:cursor-pointer ml-3' />
-          
+        </div>
+        <div className="bg-[#e8e4fdfe]">
+        <div className=" flex justify-center mt-[100px] ">
+          <h1 className="font-bold text-[50px] text-black">WHAT</h1>
+          <h1 className='text-[50px] font-thin'>WE DO.</h1>
+        </div>
+        <div className="flex text-center justify-center">
+            <p>It’s what we follow and start your teavolution with us to bring an <br /> inspiring cup of rarest tea experiences. We make you feel <br /> 
+            morning wonders throughout the day. Its all about Exceptional <br />
+            Aroma. Exceptional Tea!</p>
         </div>
 
+        </div>
+   
  </> 
   )
 }

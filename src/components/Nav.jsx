@@ -2,7 +2,7 @@ import React from 'react'
 import i from '../assets/logo.png'
 const Nav = () => {
   return (
-   <nav className=' flex justify-center h-[100px] w-[100%vh] font-sans text-left'> 
+   <nav className=' flex justify-center h-[80px] w-[100%vh] font-sans text-left bg-[#fff] backdrop-saturate-100 text-neutral-950 '> 
    <div className="flex justify-around w-[800px]">
    <p className=' mt-5   hover:cursor-pointer font-extrabold'>HOME</p>
     <p className=' mt-5 hover:cursor-pointer font-extrabold'>ABOUT</p>
