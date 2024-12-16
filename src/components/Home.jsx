@@ -274,6 +274,7 @@ const Home = () => {
                   Send Message
                 </button>
               </form>
+              
             </div>
             <div className="end_box flex mt-[-60px]  justify-center w-[100%] h-auto  ">
               <End />{" "}

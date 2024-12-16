@@ -3,10 +3,11 @@ import "../components/ENd.css";
 const End = () => {
   return (
     <div> 
+      
     <ul class="example-2">
       <li class="icon-content">
         <a
-          href="https://linkedin.com/"
+          href="https://www.linkedin.com/in/raghul-developer/"
           aria-label="LinkedIn"
           data-social="linkedin"
         >
@@ -29,7 +30,7 @@ const End = () => {
         <div class="tooltip">LinkedIn</div>
       </li>
       <li class="icon-content">
-        <a href="https://www.github.com/" aria-label="GitHub" data-social="github">
+        <a href="https://github.com/Raxhul" aria-label="GitHub" data-social="github">
           <div class="filled"></div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +51,7 @@ const End = () => {
       </li>
       <li class="icon-content">
         <a
-          href="https://www.instagram.com/"
+          href="https://www.instagram.com/mr_.shinchan._/profilecard/?igsh=MWtmbWQ4bGV6dml1cg=="
           aria-label="Instagram"
           data-social="instagram"
         >
